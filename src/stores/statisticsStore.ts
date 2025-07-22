@@ -11,8 +11,8 @@ export const useStatisticsStore = defineStore('statistics', () => {
         loading.value = true;
         try {
             const response = await getStatisticsService();
-            if (response.data && response.data.statistics) {
-                statistics.value = response.data.statistics;
+            if (response.data) {
+                statistics.value = response.data;
             }
         } catch (error) {
         } finally {
