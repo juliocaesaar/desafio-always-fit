@@ -86,6 +86,8 @@
 import { ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { useToast } from 'vue-toastification'
+import { DocumentIcon, XMarkIcon, TrashIcon } from '@heroicons/vue/24/outline'
+import CardProgresso from '@/components/CardProgresso.vue'
 import { getProgressLogs, deleteProgressLog } from '@/services/progressService'
 import type { ProgressLog } from '@/types'
 
