@@ -23,6 +23,8 @@ Este projeto utiliza Vue 3 + Vite para um sistema de gestão fitness.
 1. **Acesso Inicial**
    - Ao acessar o sistema, o usuário é direcionado para a tela de login.
    - Caso não possua uma conta, pode clicar em "Registre-se" para criar um novo cadastro.
+   
+   ![Tela de Login](./login.png)
 
 2. **Cadastro**
    - O usuário preenche nome, e-mail, senha e confirmação de senha.
@@ -36,19 +38,33 @@ Este projeto utiliza Vue 3 + Vite para um sistema de gestão fitness.
 4. **Dashboard**
    - Exibe um resumo dos principais dados: quantidade de treinos, planos nutricionais e logs de progresso.
    - O usuário pode navegar para as áreas de Treinos, Nutrição ou Progresso clicando nos respectivos cards.
+   
+   ![Dashboard](./dashboard.png)
 
 5. **Treinos**
    - Visualização dos treinos do dia, separados por categoria.
    - Permite criar, editar, visualizar detalhes e deletar treinos.
    - É possível marcar progresso em cada treino.
+   
+   ![Lista de Treinos](./trainings.png)
+   
+   - Exemplo de exclusão de treino:
+   
+   ![Exclusão de Treino](./trainings-delete.png)
 
 6. **Nutrição**
    - Visualização dos planos nutricionais do dia, separados por tipo de refeição.
    - Permite criar, editar, visualizar detalhes e deletar planos nutricionais.
+   
+   - Exemplo de criação de plano nutricional:
+   
+   ![Criação de Plano Nutricional](./nutrition-create.png)
 
 7. **Progresso**
    - Exibe o histórico de progresso dos treinos.
    - Permite deletar logs de progresso.
+   
+   ![Histórico de Progresso](./progresses.png)
 
 8. **Autenticação e Segurança**
    - O sistema utiliza tokens JWT e refresh token para manter o usuário autenticado.
